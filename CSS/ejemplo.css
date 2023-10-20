@@ -1,0 +1,42 @@
+/*Selector de etiqueta*/
+
+/* EL * es un selector universal*/
+*{
+    margin: 30px;
+}
+
+
+/*
+Selector{
+    porpiedad:valor
+}
+*/
+h1{
+    color: blueviolet;
+    ali
+}
+
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+/*Selectores de descendiente*/
+div p span{
+    color: orange;
+    font-size: 30px;
+}
+
+div p .morado{
+    color: palegreen;
+}
+
+
+/*Selector avanzado*/
+.ejemplo{
+    color: blue;
+}
+
+#parrafo {
+    color: aqua;
+}

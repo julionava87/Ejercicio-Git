@@ -1,0 +1,12 @@
+body{
+    background: rgb(231, 139, 232);
+    background: url(./stars.jpeg);
+}
+
+
+section{
+    background: chartreuse;
+    color: lavenderblush;
+    font-size: 35px;
+    text-align: center;
+}

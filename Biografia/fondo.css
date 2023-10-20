@@ -1,0 +1,23 @@
+body{
+    background: rgb(231, 139, 232);
+    background: url(./img/fondo.png);
+    margin: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: chartreuse;
+}
+
+h3{
+    text-align: center;
+    font-size: 50px;
+    color: chartreuse;
+}
+p{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}

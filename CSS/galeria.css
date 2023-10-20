@@ -1,0 +1,39 @@
+body{
+    background: #000;
+}
+
+.galeria{
+    width: 100%;
+
+}
+
+.galeria img{
+    width: 300px;
+    margin: 23px;
+    padding: 5px;
+    border: 1px solid aqua;
+    opacity: .4;
+    vertical-align: top;
+}
+
+.galeria img:hover{
+    opacity: 1;
+    border: 10px dotted #fff;
+}
+
+.redes-sociales{
+    background: #e2e2e2;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 35px;
+    text-align: center;
+
+}
+
+.redes-sociales a{
+    color: aqua;
+}
+
+.redes-sociales a:hover{
+    color: #fff;
+}

@@ -1,0 +1,157 @@
+  @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tilt Neon', sans-serif;
+    
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 15px 60px;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+header .logo{
+    position: relative;
+    left: 20px;
+    max-width: 100px;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.contenedor{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor .textBox{
+    position: relative;
+    max-width: 600px;
+}
+.contenedor .textBox h2{
+   color:#333;
+   font-size: 4em;
+   line-height: 1.1em;
+   font-weight: 700;
+
+}
+.contenedor .textBox h2 span{
+    color: #017143;
+    font-weight: 800;
+    font-size:1.2em ;
+}
+.contenedor .textBox p{
+    margin-top: 15px;
+    color: #333;
+    font-size: 1.1em;
+}
+.contenedor .textBox a{
+    display: inline-block;
+    background:#017143;
+    color: #fff;
+    margin: 20px;
+    padding: 10px 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 40px;
+}
+
+.thumb{
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translateX(-50%);
+    display: flex;
+    
+}
+.thumb li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.thumb li:hover{
+    transform:translateY(-15px) ;
+}
+
+.thumb li img{
+    max-width: 200px;
+}
+
+.contenedor .imgBox{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px; 
+}
+
+.contenedor .imgBox img{
+    max-width: 300px;
+    
+}
+
+.sci{
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateY(-50%);
+}
+.sci li{
+    list-style: none;
+}
+.sci li a{
+    display: inline-block;
+    margin: 7px 0;
+    transform: scale(0.8);
+}
+
+.circle{
+    position: absolute;
+    background: #017143;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path:circle(400px at right 500px); 
+    z-index: -1;
+}

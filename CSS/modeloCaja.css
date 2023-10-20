@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.caja{
+    background: #FF7557;
+    margin: 20px 20px;
+    padding: 30px;
+    padding-right: 300px;
+    width: 400px;
+    color: #fbd9d3;
+    border: 10px groove #7a3222;
+    
+
+}
+
+body{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-stretch: ultra-expanded;
+    line-height: 30px;
+    
+}

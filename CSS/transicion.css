@@ -1,0 +1,15 @@
+.div1{
+    width: 200px;
+    height: 200px;
+    background: red;
+    transition: width 3s, height 3s, transform 3s;
+    transition-delay: 2s; /*retrasa el animacion*/
+    transition-timing-function: ease-in;
+}
+
+.div1:hover{
+    width: 400px;
+    height: 400px;
+    transform: matrix();
+    background: blue;
+}

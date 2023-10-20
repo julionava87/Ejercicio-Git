@@ -1,0 +1,32 @@
+body{
+    background: orange;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    
+}
+
+.menu{
+    list-style: none;
+    margin: 0px;
+    background: blueviolet;
+    width: 70%;
+    margin: 15px;
+    font-size: 20px;
+    text-align:right;
+    position: absolute;
+    right: 0px;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    po
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+}
